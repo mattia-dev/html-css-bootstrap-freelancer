@@ -1,3 +1,7 @@
+h1, h2 {
+    text-align: center;
+}
+
 nav {
     height: 80px;
     background-color: black;
@@ -7,16 +11,55 @@ main > div:nth-child(odd) {
     background-color: turquoise;
 }
 
+.jumbo, .portfolio, .about, .contact-form {
+    padding: 30px 0;
+}
+
 .jumbo {
     height: 400px;
 }
 
-.portfolio {
-    height: 550px;
+.portfolio-box {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.portfolio-box-1 {
+    background-color: lightsalmon;
+    height: 200px;
+}
+
+.portfolio-box-2 {
+    background-color: yellow;
+    height: 200px;
+}
+
+.portfolio-box-3 {
+    background-color: lightseagreen;
+    height: 200px;
+}
+
+.portfolio-box-4 {
+    background-color: yellowgreen;
+    height: 200px;
+}
+
+.portfolio-box-5 {
+    background-color: red;
+    height: 200px;
+}
+
+.portfolio-box-6 {
+    background-color: violet;
+    height: 200px;
 }
 
 .about {
     height: 350px;
+}
+
+.about-box-1 {
+    height: 150px;
 }
 
 .contact-form {
